@@ -16,6 +16,10 @@ function start_dr_dre()
 	system.fiber(function()
 		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_STORY_BS"), 0xFFC)
 		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_STORY_STRAND"), -1)
+		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_GENERAL_BS"), -1)
+		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_FIXER_COMPLETED_BS"), -1)
+		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_STORY_BS"), -1)
+		STATS.STAT_SET_INT(string.joaat(get_mp_index() .. "FIXER_STORY_COOLDOWN"), -1)
 	end)
 	return true
 end
