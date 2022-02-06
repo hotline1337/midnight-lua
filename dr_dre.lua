@@ -29,9 +29,9 @@ end
 
 local next_ticks = 0
 local handler = {
-	"dr_dre_started" = false,
-	"should_execute" = false,
-	"execute_tick" = true
+	dr_dre_started = false,
+	should_execute = false,
+	execute_tick = true
 }
 function OnFeatureTick()
 	local current_ticks = system.ticks()
