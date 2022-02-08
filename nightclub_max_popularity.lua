@@ -1,4 +1,5 @@
--- made by hotline / github.com/hotline1337
+-- made by hotline
+-- github.com/hotline1337
 
 require("lib/natives")
 
